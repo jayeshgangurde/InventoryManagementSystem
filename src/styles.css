@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .spinner-wrapper{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner-border{
+    height: 10%;
+    width: 10%;
+} */

@@ -1,0 +1,29 @@
+<br>
+<form [formGroup]="productform" (ngSubmit)="addp()">
+  <div>
+  <!-- <input type="number" formControlName="id" placeholder="Product Id">
+  <pre></pre> -->
+  <input type="text" formControlName="productname" placeholder="Product Name">
+  <pre></pre>
+  <input type="number" formControlName="productprice" placeholder="Product price">
+  <pre></pre>
+  <input type="text" formControlName="productcolor" placeholder="Product color">
+  <pre></pre>
+  <input type="number" formControlName="availablequantity" placeholder="Product Quantity">
+  <pre></pre>
+  <div formGroupName="supplier">
+  <input type="text" formControlName="suppliername" placeholder="Supplier name">
+  <pre></pre>
+  <input type="text" formControlName="supplieremail" placeholder="Supplier Email">
+  <pre></pre>
+  <input type="text" formControlName="supplieraddress" placeholder="Product Address">
+  <pre></pre>
+  <input type="number" formControlName="pincode" placeholder="Pincode">
+  <pre></pre>
+  </div>
+  <button class="btn btn-success" type="submit">AddProduct</button>
+  <br><br>
+
+  
+  </div>
+</form>

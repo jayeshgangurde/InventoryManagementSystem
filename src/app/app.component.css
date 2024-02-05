@@ -1,0 +1,16 @@
+/* clc{
+    display: flex;
+    align-content: space-around;
+    text-align: center;
+    margin-top: 2%;
+} */
+button{
+    height: 10%;
+    width: 20%;
+    border-radius: 7px;
+    box-shadow: 1px 1px 20px rgb(16, 225, 225);
+}
+button:hover{
+    background-color:rgb(56, 74, 74);
+    zoom: 1.1;
+}
